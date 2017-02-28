@@ -1,0 +1,12 @@
+version: 1.0.{build}
+branches:
+  # whitelist
+  only:
+    - master
+init:
+  - apt-get install -y wget
+  - apt-get install -y sudo
+install:
+  # by default, all script lines are interpreted as batch
+  - npm install
+  - npm test

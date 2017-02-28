@@ -1,0 +1,12 @@
+before_script:
+  - apt-get update -qq && apt-get install -y -qq sudo wget curl  nodejs
+
+rspec:
+  script:
+    - npm install
+    - npm test
+
+rubocop:
+  script:
+    - npm install
+    - npm test

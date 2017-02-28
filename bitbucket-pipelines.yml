@@ -1,0 +1,7 @@
+mage: node:4.6.0
+
+pipelines:
+  default:
+    - step:
+        script: # Modify the commands below to build your repository.
+          - chmod +x install-docker.sh && ./install-docker.sh

@@ -1,0 +1,4 @@
+demo:
+    build:
+        image: my-moreno
+        dockerfile_path: Dockerfile

@@ -1,0 +1,12 @@
+{
+  "name": "best-demo",
+  "version": "1.0.0",
+  "description": "Preparing",
+  "main": "index.js",
+  "scripts": {
+    "test": "./build.sh",
+    "test-7": "./build.sh 7"
+  },
+  "author": "",
+  "license": "ISC"
+}

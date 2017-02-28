@@ -1,0 +1,3 @@
+- name: monero
+  service: demo
+  command: npm install && npm test
